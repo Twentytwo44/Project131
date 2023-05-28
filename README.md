@@ -14,7 +14,7 @@ SellerApp is a simple application built using Python and the Tkinter library. It
 Clone the repository:
 
 ```bash
-  git clone <https://github.com/Twentytwo44/Project131>
+  git clone https://github.com/Twentytwo44/Project131
 
 ```
 Install the required dependencies:
