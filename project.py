@@ -11,8 +11,7 @@ iconpath =''
 Program = ttk.Window(themename='journal')
 Program.title('SellerApp')
 Program.geometry('600x500')
-photo = PhotoImage(file = iconpath)
-Program.iconphoto(False, photo)
+
 # Frame1
 Box1 = ttk.LabelFrame(Program, text=' Seller Dashboard ',bootstyle="success")
 Box1.place(x=60, y=190, width=490, height=230)
