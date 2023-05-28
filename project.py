@@ -4,16 +4,14 @@ from tkinter import *
 from tkinter import messagebox, filedialog
 import tkinter as tk
 import datetime
-import pandas as pd 
-import matplotlib.pyplot as plt
-
 import csv
 
+iconpath =''
 
 Program = ttk.Window(themename='journal')
 Program.title('SellerApp')
 Program.geometry('600x500')
-photo = PhotoImage(file = "D:/Two/clothes.png")
+photo = PhotoImage(file = iconpath)
 Program.iconphoto(False, photo)
 # Frame1
 Box1 = ttk.LabelFrame(Program, text=' Seller Dashboard ',bootstyle="success")
@@ -303,6 +301,8 @@ def sell_product():
 
 sell_button = ttk.Button(Program, bootstyle="success",text="Add/Sell Product", command=sell_product)
 sell_button.place(x=75,y=450)
+
+
 
 
 def generate_sales_summary():
